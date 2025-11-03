@@ -1,0 +1,16 @@
+\begin{table}[ht]
+\centering
+\caption{Development results (macro-F1).}
+\label{tab:dev-results}
+\begin{tabular}{lccc}
+\toprule
+Model & Macro F1 & F1 (NOT) & F1 (OFF) \\
+\midrule
+transformer_fast_distilroberta_cls_masked_dev_report & 0.7448 & 0.8461 & 0.6434 \\
+transformer_fast_dev_report & 0.7448 & 0.8461 & 0.6434 \\
+svm_masked_dev_report & 0.7233 & 0.8213 & 0.6254 \\
+svm_dev_report & 0.7233 & 0.8213 & 0.6254 \\
+lstm_dev_report & 0.7034 & 0.7939 & 0.6129 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,12 @@
+\begin{table}[ht]\centering
+\small
+\begin{tabular}{lcc}
+\toprule
+Model & Macro F1 (train) & Macro F1 (dev) \\
+\midrule
+SVM (norm off) & 0.9972 & 0.7361 \\
+Frozen DistilRoBERTa + CLS + LinearSVC & 0.7474 & 0.7642 \\
+\bottomrule
+\end{tabular}
+\caption{Train vs development macro-F1 for the two strongest models.}
+\end{table}
